@@ -1,0 +1,55 @@
+<form action="/register" method="POST">
+    <div class="row">
+        <div class="col-6 mx-auto">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">name</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" name="firstname" value="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    name="email" value="">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">phone</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" name="phone" value="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="password" value="">
+            </div>
+
+        </div>
+        <div class="col-6 mx-auto">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">lastname</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" name="lastname" value="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">age</label>
+                <input type="number" class="form-control" id="exampleInputPassword1" name="age" value="">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1" value="male">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault2 " value="female">
+                <label class="form-check-label" for="flexRadioDefault2">
+                    female
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">confirm password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" name="confirmpassword" value="">
+            </div>
+
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary" value="Register">Submit</button>
+</form>
